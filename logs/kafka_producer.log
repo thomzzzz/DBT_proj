@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/home/pes2ug22cs034/twitter-project/code/kafka_producer_full.py", line 1, in <module>
+    from kafka import KafkaProducer
+  File "/home/pes2ug22cs034/twitter-venv/lib/python3.12/site-packages/kafka/__init__.py", line 21, in <module>
+    from kafka.admin import KafkaAdminClient
+  File "/home/pes2ug22cs034/twitter-venv/lib/python3.12/site-packages/kafka/admin/__init__.py", line 4, in <module>
+    from kafka.admin.client import KafkaAdminClient
+  File "/home/pes2ug22cs034/twitter-venv/lib/python3.12/site-packages/kafka/admin/client.py", line 10, in <module>
+    from kafka.client_async import KafkaClient, selectors
+  File "/home/pes2ug22cs034/twitter-venv/lib/python3.12/site-packages/kafka/client_async.py", line 22, in <module>
+    from kafka.cluster import ClusterMetadata
+  File "/home/pes2ug22cs034/twitter-venv/lib/python3.12/site-packages/kafka/cluster.py", line 12, in <module>
+    from kafka.conn import collect_hosts
+  File "/home/pes2ug22cs034/twitter-venv/lib/python3.12/site-packages/kafka/conn.py", line 29, in <module>
+    from kafka.protocol.admin import SaslHandShakeRequest
+  File "/home/pes2ug22cs034/twitter-venv/lib/python3.12/site-packages/kafka/protocol/__init__.py", line 3, in <module>
+    from kafka.protocol.legacy import (
+  File "/home/pes2ug22cs034/twitter-venv/lib/python3.12/site-packages/kafka/protocol/legacy.py", line 10, in <module>
+    import kafka.protocol.message
+  File "/home/pes2ug22cs034/twitter-venv/lib/python3.12/site-packages/kafka/protocol/message.py", line 6, in <module>
+    from kafka.codec import (has_gzip, has_snappy, has_lz4,
+  File "/home/pes2ug22cs034/twitter-venv/lib/python3.12/site-packages/kafka/codec.py", line 9, in <module>
+    from kafka.vendor.six.moves import range
+ModuleNotFoundError: No module named 'kafka.vendor.six.moves'
